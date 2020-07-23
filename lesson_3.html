@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+	<!-- задание 1 -->
+    <script>
+    	let number = 1;
+    let numberArr = [];
+
+    while (number <= 100) {
+        if (number == 1) {
+            numberArr.push(1)
+        } else {
+            let result = 2;
+            let a = 2;
+            while (number % a !== 0 ){
+                a += 1;
+                result +=1;
+                } 
+            if (result == number) {
+                numberArr.push(result);
+            }
+        }
+        number += 1;
+    }
+
+    console.log(numberArr);
+    </script>
+   
+   <!-- Задание 3 -->
+
+    <script>
+   	 for (let a = 0; a < 9; a++, console.log(a)) {}
+   </script>
+
+<!-- Задание 4 -->
+
+   <script>
+   	   let arr = [];
+   let end = 0;
+   while (end < 20) {
+       end++;
+       arr.push('x');
+       console.log(arr);
+   }
+   </script>
+</body>
+
+</html>
